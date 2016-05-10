@@ -1,0 +1,14 @@
+export BUNDLER_EDITOR=sub
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+
+export JAVA_HOME=$(/usr/libexec/java_home)
+export ANDROID_HOME=$HOME/Code/android-sdk-macosx
+
+export DEVKITPRO=/usr/local/Cellar/devkitpro
+export DEVKITARM=${DEVKITPRO}/devkitARM
+
+# This must go before setting PATH
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+export PATH="/usr/local/heroku/bin:./.bundle/bin:~/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/Code/android-sdk-macosx/tools:$HOME/Code/android-sdk-macosx/tools:$HOME/Code/android-sdk-macosx/platform-tools:${DEVKITARM}/bin"

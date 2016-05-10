@@ -1,0 +1,6 @@
+alias lsl='ls -lah'
+alias cls='clear'
+alias be='bundle exec'
+alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+alias psar='ps aux | grep ruby'
+alias git-tag-sorted='git tag -l | gsort -V'
