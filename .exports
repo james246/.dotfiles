@@ -11,4 +11,4 @@ export DEVKITARM=${DEVKITPRO}/devkitARM
 # This must go before setting PATH
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-export PATH="/usr/local/heroku/bin:./.bundle/bin:~/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/Code/android-sdk-macosx/tools:$HOME/Code/android-sdk-macosx/tools:$HOME/Code/android-sdk-macosx/platform-tools:${DEVKITARM}/bin"
+export PATH="/usr/local/heroku/bin:./.bundle/bin:$HOME/Code/android-sdk-macosx/tools:$HOME/Code/android-sdk-macosx/platform-tools:${DEVKITARM}/bin:$PATH"
