@@ -1,8 +1,8 @@
 export DOTFILESPATH=$HOME/.dotfiles
 
-source $DOTFILESPATH/.aliases
-source $DOTFILESPATH/.exports
-source $DOTFILESPATH/.completions
+source $DOTFILESPATH/aliases
+source $DOTFILESPATH/exports
+source $DOTFILESPATH/completions
 
 fpath=(~/.zsh $fpath)
 plugins=(git heroku)
