@@ -3,8 +3,14 @@
 	[
 		"log/*.log"
 	],
-	"color_scheme": "Packages/Color Scheme - Default/Mac Classic.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Mac Classic (SL).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.map",
+		"dist/stats.json",
+		"node_modules/"
+	],
 	"folder_exclude_patterns":
 	[
 		".bundle",
