@@ -3,7 +3,7 @@ export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
 export JAVA_HOME=$(/usr/libexec/java_home)
-export ANDROID_HOME=$HOME/Code/android-sdk-macosx
+export ANDROID_HOME=$HOME/Library/Android/sdk
 
 export DEVKITPRO=/usr/local/Cellar/devkitpro
 export DEVKITARM=${DEVKITPRO}/devkitARM
@@ -11,4 +11,4 @@ export DEVKITARM=${DEVKITPRO}/devkitARM
 # This must go before setting PATH
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-export PATH="/usr/local/heroku/bin:./.bundle/bin:$HOME/Code/android-sdk-macosx/tools:$HOME/Code/android-sdk-macosx/platform-tools:${DEVKITARM}/bin:$PATH"
+export PATH="/usr/local/heroku/bin:./.bundle/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:${DEVKITARM}/bin:$PATH"
