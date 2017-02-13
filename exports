@@ -1,3 +1,5 @@
+source $DOTFILESPATH/secret-exports
+
 export BUNDLER_EDITOR=sub
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
