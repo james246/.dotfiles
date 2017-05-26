@@ -1,16 +1,12 @@
 {
 	"binary_file_patterns":
 	[
-		"log/*.log"
-	],
-	"color_scheme": "Packages/User/SublimeLinter/Mac Classic (SL).tmTheme",
-	"ensure_newline_at_eof_on_save": true,
-	"binary_file_patterns":
-	[
 		"*.map",
 		"dist/stats.json",
 		"node_modules/"
 	],
+	"color_scheme": "Packages/User/SublimeLinter/Mac Classic (SL).tmTheme",
+	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
 		".bundle",
