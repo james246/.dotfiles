@@ -1,4 +1,6 @@
-source $DOTFILESPATH/secret-exports
+if [[ -e "$DOTFILESPATH/secret-exports" ]]; then
+  source $DOTFILESPATH/secret-exports
+fi
 
 export BUNDLER_EDITOR=sub
 export CLICOLOR=1
