@@ -8,11 +8,14 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 
 export JAVA_HOME=$(/usr/libexec/java_home)
 export ANDROID_HOME=$HOME/Library/Android/sdk
+export ANDROID_SDK_ROOT=$ANDROID_HOME
 
 export DEVKITPRO=/usr/local/Cellar/devkitpro
 export DEVKITARM=${DEVKITPRO}/devkitARM
 
+export FLUTTER_PATH=$HOME/Code/flutter
+
 # This must go before setting PATH
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-export PATH="/usr/local/heroku/bin:./.bundle/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:${DEVKITARM}/bin:$PATH"
+export PATH="/usr/local/heroku/bin:./.bundle/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:${DEVKITARM}/bin:$FLUTTER_PATH/bin:$PATH"
