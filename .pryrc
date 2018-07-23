@@ -1,13 +1,16 @@
 require 'irb/ext/save-history'
-IRB.conf[:SAVE_HISTORY] = 200
-IRB.conf[:HISTORY_FILE] = "#{ENV['HOME']}/.irb-history"
-
-# some commonly used dependencies
 require 'net/http'
 require 'json'
-
 require 'awesome_print'
-AwesomePrint.irb! if defined? AwesomePrint
+
+if defined? AwesomePrint
+  AwesomePrint.irb!
+end
+
+if defined? IRB.conf
+  IRB.conf[:SAVE_HISTORY] = 200
+  IRB.conf[:HISTORY_FILE] = "#{ENV['HOME']}/.irb-history"
+end
 
 if defined? ActiveRecord
   ActiveRecord::Base.logger = Logger.new STDOUT
