@@ -6,7 +6,7 @@ export BUNDLER_EDITOR=sub
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
-export JAVA_HOME=$(/usr/libexec/java_home)
+# export JAVA_HOME=$(/usr/libexec/java_home)
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export ANDROID_SDK_ROOT=$ANDROID_HOME
 

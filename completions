@@ -1,1 +1,0 @@
-zstyle ':completion:*:*:git:*' script $DOTFILESPATH/git-completion.bash
