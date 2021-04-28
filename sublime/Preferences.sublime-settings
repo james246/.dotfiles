@@ -10,8 +10,7 @@
 	"folder_exclude_patterns":
 	[
 		".bundle",
-		".git",
-		"tmp/"
+		".git"
 	],
 	"font_size": 15,
 	"ignored_packages":
